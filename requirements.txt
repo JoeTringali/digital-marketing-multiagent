@@ -1,0 +1,9 @@
+# Core multi-agent framework
+autogen-agentchat>=0.4.0
+autogen-ext[openai]>=0.4.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Rich terminal output
+rich>=13.7.0
