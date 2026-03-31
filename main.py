@@ -73,7 +73,6 @@ async def build_team(interactive: bool = True):
 
     user_exit_condition   = TextMentionTermination("quit") | TextMentionTermination("exit")
     system_done_condition = TextMentionTermination(TERMINATION_KEYWORD)
-
     termination = user_exit_condition | system_done_condition
 
     selector_model = OpenAIChatCompletionClient(
